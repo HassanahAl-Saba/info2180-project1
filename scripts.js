@@ -1,7 +1,7 @@
 var starter=function(){
-   var entry = document.getElementById("email");
+   var email_entry = document.getElementById("email");
    document.getElementsByClassName("btn")[1].onclick=function(e){
-        var input = entry.value;
+        var input = email_entry.value;
         if (input == "") {
             document.getElementsByClassName("message")[0].innerHTML = "Please enter a valid email address.";
         } 
