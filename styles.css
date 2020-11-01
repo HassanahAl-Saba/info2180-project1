@@ -40,22 +40,80 @@ li:hover{
     background-color: #E2E8F0;
 }
 
-.learn-about .h2{
-    font-size: 24px;
-    color: #48BB78;
-}
-
-.learn-about .container{
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap: 5px;
-
-}
-
 .overview-hero-image{
     float: left;
 }
 
 .overview-hero-text{
     float: right;
+}
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about .container .card img {
+  width: 300px;
+  height: 200px;
+}
+
+.learn-about .container .card {
+  border: 2px solid ;
+  border-color: #E2E8F0;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+  width: 300px;
+  padding: 15px;
+  margin-top: 100px;
+}
+
+.learn-about .container .cards {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto; 
+  margin: 20 20px; 
+  grid-gap: 10px;
+  align-self: auto;
+}
+
+.learn-about .container .cards .card .card-body h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.learn-about {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+    float: right;
+    padding: 10px;
+}
+
+.stories img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    float: left;
+    padding-top: 20px;
+}
+
+.stories .container {
+    padding: 20px;
+}
+
+.article-body {
+    float: right;
+    padding-left: 20px;
 }
